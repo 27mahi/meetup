@@ -42,6 +42,9 @@ export const siteConfig: Metadata = {
     name: "Mahitha Pandaraboina",
     url: "https://github.com/",
   },
+} as const;
+
+export const appConfig = {
   appName: "meetup",
 } as const;
 
