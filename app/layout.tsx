@@ -37,6 +37,10 @@ const AppLayout = ({ children }: Readonly<PropsWithChildren>) => {
             colorInputBackground: "#252A41",
             colorInputText: "#FFF",
           },
+          elements: {
+            headerTitle: "Meetup",
+            headerSubtitle: "Sign in to continue to Meetup"
+          }
         }}
       >
         <body className={cn("bg-dark-2", inter.className)}>

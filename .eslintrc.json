@@ -3,9 +3,5 @@
   "plugins": ["unused-imports"],
   "rules": {
     "unused-imports/no-unused-imports": "error"
-  },
-  "parserOptions": {
-    "ecmaVersion": 2022,
-    "sourceType": "module"
   }
 }
